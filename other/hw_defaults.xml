@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+-->
+
+<resources>
+    <!-- DTS2012030806649 zhangqijia 201200308 begin -->
+    <!-- Customize default input method. -->
+    <string settings.secure.default_input_method="com.huawei.inputmethod.hwpal/.PinyinIME"/>
+    <!-- DTS2012030806649 zhangqijia 201200308 end -->
+    <!-- DTS2011031900393 wangzhen 20110317 begin --> 
+    <!-- When remote hand up ,whether screen should wakeup or not ,here we set value is wakeup-->
+    <bool hw_call_wakeup="true"/>
+    <!-- DTS2011031900393 wangzhen 20110317 end -->  
+    <!-- DTS2011072601811 luxiao 20110818 begin --> 
+    <!-- DTS2011090905954 wenxiao 20110910 begin --> 
+    <!-- DTS2012030806649 zhangqijia 201200308 begin -->
+    <string white_languages="zh_CN,en_US,zh_TW"/>
+    <!-- DTS2012030806649 zhangqijia 201200308 end -->
+    <!-- DTS2011090905954 wenxiao 20110910 end --> 
+    <!-- DTS2011072601811 luxiao 20110818 end -->   
+    <!-- DTS2010092701023 mengxiaokun 20100930 begin --> 
+    <!-- DTS2011102604879 luxiao 20111026 begin -->
+    <!-- DTS2012042101474  zhangwei 20120424 begin -->
+    <bool power_saving_on="false"/>
+    <!-- DTS2012042101474  zhangwei 20120424 end -->
+    <!-- DTS2011102604879 luxiao 20111026 end --> 
+    <!-- DTS2010092701023 mengxiaokun 20100930 end --> 
+    <!-- DTS2011032502728 mengxiaokun 20110325 begin -->
+    <!-- 5 lines deleted, remove the toolbox widgets -->
+    <!-- DTS2011032502728 mengxiaokun 20110325 end -->
+    <!-- DTS2011040701444 zhoujie 20110407 begin -->
+    <integer toolBoxSwitch="1"/>
+    <string toolBoxDisplayWidgetNameArray="com.huawei.android.toolbox,com.huawei.android.toolbox.ToolBoxProvider"/>
+    <!-- DTS2011040701444 zhoujie 20110407 end -->
+    <!-- DTS2011060204859 linqing 20110602 begin -->      
+    <string power_saving_widget="com.android.systemui,com.android.systemui.powersaving.PowerSavingModeProvider"/>
+    <integer power_saving_use_toggle="1"/> 
+    <!-- DTS2011060204859 linqing 20110602 end -->
+    <!-- DTS2010092801811 config location method for GPSXtra y142196&q170606 20101014 begin -->
+    <!-- location_method :0(xtra checkbox is default unchecked), 3(xtra checkbox is default checked)-->
+    <integer location_method="0"/>
+    <!-- DTS2010092801811 config location method for GPSXtra y142196&q170606 20101014 end -->
+    <!--DTS2011042804095 chenxinming 20110516 begin -->
+    <bool ascend_ringtone="true"/>
+    <!--DTS2011042804095 chenxinming 20110516 end -->
+    <!-- DTS2011060801408 qizhanfeng 20110608 begin --> 
+    <!-- DTS2011072601642 yangjunjian 20110726 begin --> 
+    <integer default_appnum_task="10"/>
+    <integer task_scale_num="0"/>
+    <integer task_scale_den="0"/>
+    <string package_name_task="com.huawei.task, com.android.phone, com.android.deskclock, com.android.stk, com.android.systemui"/>
+    <!-- DTS2011072601642 yangjunjian 20110726 end -->
+    <!-- DTS2011060801408 qizhanfeng 20110608 end -->
+    <!-- DTS2011072506220 wenxiao 20110726 begin --> 
+    <!--DTS2011100905833 zhoujie 20111009 begin -->
+    <!--DTS2012032905513 meiqingyun 20120329 begin -->
+    <integer settings.system.screen_off_timeout="30000"/> 
+    <!--DTS2012032905513 meiqingyun 20120329 end -->
+    <!--DTS2011100905833 zhoujie 20111009 end -->
+    <!-- DTS2011093003140  wenxiao 20110930 begin --> 
+    <bool settings.system.screen_brightness_mode="true"/>
+    <integer settings.system.screen_brightness="128"/> 
+    <!-- DTS2011093003140  wenxiao 20110930 end -->
+    <!-- DTS2011072506220 wenxiao 20110726 end -->
+    <!-- DTS2011061500341 wanggang 20110804 begin -->
+    <integer popup_saveoropen="1"/>
+    <!-- DTS2011061500341 wanggang 20110804 end -->
+    <!-- DTS2011080903932 yushaochen 20110811 begin -->
+    <integer hwfeature_endtocall_log="1"/>
+    <!-- DTS2011080903932 yushaochen 20110811 end -->
+    <!-- DTS2011080904921 linqing 20110816 begin -->
+    <integer hw_calllog_type="1"/>
+    <!-- DTS2011080904921 linqing 20110816 end -->
+    <!-- DTS2011081903936 wenxiao 20110823 begin --> 
+  <string settings.system.window_animation_scale="0.0" />
+  <string settings.system.transition_animation_scale="0.0" />
+    <!-- DTS2011081903936 wenxiao 20110823 end -->
+    <!-- DTS2011083001844  yushaochen 20110830 begin --> 
+    <!-- When remote answer ,whether vibrate should turn on  or not ,here we set value is turn on-->
+    <bool hw_vibrate_on="true"/>
+    <!-- DTS2011083001844  yushaochen 20110830 end --> 
+    <!-- DTS2011082702231 yushaochen 20110905 begin -->
+    <integer hwfeature_earphone="1" />
+    <!-- DTS2011082702231 yushaochen 20110905 end -->
+    <!-- DTS2011092303772 daixueming 20110923 begin -->
+    <integer enable_wps="1"/>
+    <!-- DTS2011092303772 daixueming 20110923 end -->
+    <!-- DTS2011100804425 luxiao 20111008 begin -->
+    <!-- DTS2011101402732 luxiao 20111014 delete 1 line  -->
+    <!-- DTS2011100804425 luxiao 20111008 end -->
+    <!-- DTS2011092802116 linqing 20110928 begin -->
+    <integer hw_call_disconnecting_red_bg="1"/>
+    <!-- DTS2011092802116 linqing 20110928 end -->
+    <!--DTS2011072503919 chenxinming 20110811 begin-->
+    <integer hwfeature_mmssound="1"/>
+    <!--DTS2011072503919 chenxinming 20110811 end-->
+    <!--DTS2011101406010 luxiao 20111014 begin-->
+    <integer tty_enabled="0" />
+    <integer hac_enabled="0" />
+    <!--DTS2011101406010 luxiao 20111014 end-->
+    <!--DTS2011092005125 zhoujie 20111009 begin -->
+    <integer apn_protocol_on="1"/>
+    <!--DTS2011092005125 zhoujie 20111009 end -->
+    <!--DTS2011101908038 luxiao 20111019 begin-->
+    <string settings.system.volume_alarm="4"/>
+    <!--DTS2012010501782 luxiao 20120105 begin-->
+    <string settings.system.volume_ring="4"/>
+    <string settings.system.volume_music="4"/>
+    <!--DTS2012010501782 luxiao 20120105 end-->
+    <!--DTS2011101908038 luxiao 20111019 end-->
+    <!--DTS2011100905833 zhoujie 20111009 begin -->
+    <integer screen_timeout_delete15s="1"/>
+    <!--DTS2011100905833 zhoujie 20111009 end -->
+    <!-- DTS2011101805494 zhangjinwei 20111018 begin -->
+    <integer hwlauncher_customed_version="128"/>
+    <!-- DTS2011101805494 zhangjinwei 20111018 end -->
+    <!-- DTS2011102106635 luxiao 20111021 begin -->
+    <string hw_backup_package_black_list_add="com.android.camera,com.android.filemanager,com.cooliris.media,com.huawei.SecurityGuard,com.huawei.accountagent,com.huawei.android,com.huawei.android.FMRadio,com.huawei.android.apkbatchinstall,com.huawei.android.dlna,com.huawei.hidisk,com.huawei.task,com.huawei.theme.beyondthesky,com.huawei.bluetooth"/>
+    <!-- DTS2011102106635 luxiao 20111021 end -->
+    <!-- DTS2011110203515 luxiao 20111102 begin -->
+    <integer settings.system.auto_time="1"/>
+    <!-- DTS2011110203515 luxiao 20111102 end -->
+    <!-- DTS2012020805160 yanzhennan 20120209 begin -->
+    <!-- DTS2012022705011 yanzhennan 20120227 begin -->
+    <string prepay_postpay_mccmncs="23415,23410"/>
+    <!-- DTS2012022705011 yanzhennan 20120227 end -->
+    <!-- DTS2012020805160 yanzhennan 20120209 end -->
+	
+    <!-- DTS2011112503270 yangchenghai 00184280 20111205 begin -->			
+    <integer ipcall_enabled="0" />			
+    <!-- DTS2011112503270 yangchenghai 00184280 20111205 end -->	
+	<!-- DTS2011111802952 haoliguo 20111119 begin-->
+    <!-- "1" means hardware version of telecom must be "ver.A"-->
+    <integer telecom_hardware_version="1"/>
+    <!-- DTS2011111802952 haoliguo 20111119 end-->
+    <!-- DTS2012022403630 jinhui 2012-02-22 begin -->
+    <integer wifi_p2p_state="0" />
+    <!-- DTS2012022403630 jinhui 2012-02-22 end -->
+    <!-- DTS2012021706980 zhangxiaohai 20120225 begin -->
+    <integer hwfeature_gesture="0" />
+    <!-- DTS2012021706980 zhangxiaohai 20120225 end -->	
+	<!--DTS2012022707246 zhaijianxi 20120228 begin-->
+    <integer ro.config.hw_videocamera_caf="0" />
+    <!--DTS2012022707246 zhaijianxi 20120228 end-->
+	<!--DTS2012031001627 gaopeipei 20120310 begin-->
+	<string opt_display_rules="24421,24405=h"/>
+	<!--DTS2012031001627 gaopeipei 20120310 end-->
+    <!--DTS2012031304163 lizhenlong 20120314 begin-->
+    <!--DTS2012032104705 chenzhong 20120321 begin -->
+    <!--DTS2012032200231 chenzhong 20120327 begin -->
+    <!--DTS2012032405985 chenzhong 20120329 begin -->
+    <string reg_plmn_custom="46000,46002,46007;24001,24007,24005;24405,24421;24002,24008,24004;46060,46008;23430,23433;21407,21404"/>
+    <!--DTS2012032405985 chenzhong 20120329 end -->
+    <!--DTS2012032200231 chenzhong 20120327 end -->
+    <!--DTS2012032104705 chenzhong 20120321 end -->
+    <!--DTS2012031304163 lizhenlong 20120314 end-->
+    <!-- DTS2012030300750 wangkai 20120320 begin-->
+    <integer hw_front_camera_support_coloreffect="1" />
+    <!-- DTS2012030300750 wangkai 20120320 end-->
+	<!-- DTS2012031503357 z00142136 20120320 begin-->
+    <!-- DTS2012022807201 lijunyi 20120306 begin-->
+    <integer is_block_state="0" />
+    <integer is_servicediscovery_state="0" />
+    <!-- DTS2012022807201 lijunyi 20120306 end-->
+    <!-- DTS2012031503357 z00142136 20120320 end-->	
+    <!--DTS2012031202126 chenxiufei 20120321 begin-->
+    <integer config_videocamera_touchfocus="1" />
+    <!--DTS2012031202126 chenxiufei 20120321 end-->
+    <!-- DTS2012060406304 yufei 20120604 begin-->
+    <string apps_set_oomadj="com.android.mms;com.android.contacts;android.process.acore;com.huawei.android.launcher"/>
+    <integer oomadj.com.android.mms="3"/>
+    <integer oomadj.com.android.contacts="3"/>
+    <integer oomadj.android.process.acore="3"/>
+    <integer oomadj.com.huawei.android.launcher="3"/>
+    <!-- DTS2012060406304 yufei 20120604 end-->
+    <!-- DTS2012052405652 yubo 20120531 begin-->
+    <string settings.secure.data_roaming="0"/>
+    <!-- DTS2012052405652 yubo 20120531 end-->
+</resources>
+

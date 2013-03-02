@@ -1,0 +1,50 @@
+Patch_u8800pro for MIUIv4
+===========
+        BY Geno
+
+
+Getting Started
+---------------
+
+To get started with miuicode/patchrom, you'll need to get
+familiar with [Git and Repo](http://source.android.com/download/using-repo).
+
+    https://github.com/miuicode
+
+To initialize your local repository using the patchrom trees, use a command like this:
+
+    mkdir patchrom
+
+    cd patchrom
+
+    repo init -u git://github.com/miuicode/patchrom.git -b ics
+
+Then to sync up:
+
+    repo sync
+
+Git patch_u8800pro
+
+    mkdir u8800pro
+
+    cd u8800pro
+
+    git init
+
+    git pull git://github.com/genokolar/patchrom_u8800pro.git master
+
+
+Build
+--------
+
+Assumed current directory is patchtom and you want to build the ROM for Huawei u8800pro
+
+
+     . build/envsetup.sh
+
+     cd u8800pro
+
+     make fullota PORT_PRODUCT=u8800pro BUILD_NUMBER=2.4.27
+
+After build completed, there will be a fullota.zip under out directory, now you can flash this file into your device.
+
